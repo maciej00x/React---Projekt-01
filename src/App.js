@@ -1,22 +1,18 @@
-import React from "react";
-import Navigation from "./navigation/navigation";
-import Header from "./header/header";
-import ListSection from "./list_section/list_section";
-import BoxSection from "./box_section/box_section";
-import Footer from "./footer/footer";
+import Navigation from "./components/Navigation/Navigation";
+import Header from "./components/Header/Header";
+import ListSection from "./components/Specialists/ListSection";
+import BoxSection from "./components/BoxSection/BoxSection";
+import Footer from "./components/Footer/Footer";
 import "./App.css";
-import logo from "./logo.svg";
 
-function App() {
-  return (
-    <div className="App">
-      <Navigation />
-      <Header />
-      <ListSection />
-      <BoxSection />
-      <Footer />
-    </div>
-  );
-}
+const App = () => (
+  <>
+    <Navigation />
+    <Header />
+    <ListSection />
+    <BoxSection />
+    <Footer />
+  </>
+);
 
 export default App;
