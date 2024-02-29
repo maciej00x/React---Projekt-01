@@ -1,4 +1,5 @@
-import "./Footer.css";
+import "./footer.css";
+import { FaInstagram, FaFacebook } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -8,8 +9,16 @@ const Footer = () => {
           Nazwa firmy - wszelkie prawa zastrzeżone, 2023
         </div>
         <div className="footer-logo-style">
-          <i className="icon fab fa-instagram"></i>
-          <i className="icon fab fa-facebook-square"></i>
+          <span className="instagram">
+            <i className="fa-brands fa-instagram">
+              <FaInstagram />
+            </i>
+          </span>
+          <span className="facebook">
+            <i className="fa-brands fa-square-facebook">
+              <FaFacebook />
+            </i>
+          </span>
         </div>
       </div>
     </footer>

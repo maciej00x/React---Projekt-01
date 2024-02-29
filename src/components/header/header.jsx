@@ -1,9 +1,9 @@
-import "./Header.css";
+import "./header.css";
 
 const Header = () => {
   return (
     <header className="main-header">
-      <div className="container main-header-content">
+      <div className="assets container main-header-content">
         <h1 className="main-header-heading">
           Nasza firma oferuje najwyższej jakości produkty.
         </h1>
