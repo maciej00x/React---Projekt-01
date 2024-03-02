@@ -39,11 +39,11 @@
 }
 
 .our-crew-image-1 {
-  background-image: url("/assets/monkey2.jpg");
+  background-image: url(../../assets/monkey2.jpg);
 }
 
 .our-crew-image-2 {
-  background-image: url("/assets/monkey2.jpg");
+  background-image: url(../../assets/monkey2.jpg);
 }
 
 .our-crew-list-element {

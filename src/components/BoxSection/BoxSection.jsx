@@ -1,4 +1,5 @@
 import "./BoxSection.css";
+import offers from "../../data/offers.js";
 
 const BoxSection = ({ offers }) => {
   return (

@@ -1,5 +1,9 @@
 import "./footer.css";
-import { FaInstagram, FaFacebook } from "react-icons/fa";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faFacebookSquare,
+  faInstagram,
+} from "@fortawesome/free-brands-svg-icons";
 
 const Footer = () => {
   return (
@@ -9,16 +13,8 @@ const Footer = () => {
           Nazwa firmy - wszelkie prawa zastrzeżone, 2023
         </div>
         <div className="footer-logo-style">
-          <span className="instagram">
-            <i className="fa-brands fa-instagram">
-              <FaInstagram />
-            </i>
-          </span>
-          <span className="facebook">
-            <i className="fa-brands fa-square-facebook">
-              <FaFacebook />
-            </i>
-          </span>
+          <FontAwesomeIcon icon={faInstagram} />
+          <FontAwesomeIcon icon={faFacebookSquare} />
         </div>
       </div>
     </footer>
