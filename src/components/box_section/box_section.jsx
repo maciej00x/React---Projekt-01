@@ -1,4 +1,4 @@
-import "./BoxSection.css";
+import "./box_section.css";
 import offers from "../../data/offers.js";
 
 const BoxSection = ({ offers }) => {
@@ -13,7 +13,7 @@ const BoxSection = ({ offers }) => {
               className={`box ${offer.isNew ? "new-service" : "0"}`}
             >
               {offer.name}
-              {offer.isNew(<span className="new-product-style">(nowość)</span>)}
+              {offer.isNew && <span className="new-product-style">(nowość)</span>}
               {offer.isNew && <div className="new-service-dot"></div>}
             </div>
           ))}
