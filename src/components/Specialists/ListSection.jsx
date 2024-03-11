@@ -1,4 +1,4 @@
-import "./list_section.css";
+import "./ListSection.css";
 
 const ListSection = () => {
   return (
