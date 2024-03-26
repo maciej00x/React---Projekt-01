@@ -13,3 +13,9 @@ body {
 
   background: #ffffff;
 }
+
+.container {
+  width: 960px;
+
+  margin: 0 auto;
+}
