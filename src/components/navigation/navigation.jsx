@@ -8,7 +8,7 @@ const Navigation = () => {
         <ul className="nav-items-list">
           <li className="nav-item">
             <a
-              Link
+              link
               to="./components/Specialists/ListSection"
               className="nav-link"
             >
@@ -17,7 +17,7 @@ const Navigation = () => {
           </li>
           <li className="nav-item">
             <a
-              Link
+              link
               to="./components/BoxSection/BoxSection"
               className="nav-link"
             >
