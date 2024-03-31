@@ -7,12 +7,20 @@ const Navigation = () => {
         <p className="company-logo">moja firma</p>
         <ul className="nav-items-list">
           <li className="nav-item">
-            <a href="#about-us" className="nav-link">
+            <a
+              Link
+              to="./components/Specialists/ListSection"
+              className="nav-link"
+            >
               o nas
             </a>
           </li>
           <li className="nav-item">
-            <a href="#our-product" className="nav-link">
+            <a
+              Link
+              to="./components/BoxSection/BoxSection"
+              className="nav-link"
+            >
               oferta
             </a>
           </li>
