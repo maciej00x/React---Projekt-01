@@ -1,8 +1,8 @@
-import Navigation from "./components/Navigation/Navigation";
-import Header from "./components/Header/Header";
+import Navigation from "./components/navigation/Navigation";
+import Header from "./components/header/Header";
 import ListSection from "./components/Specialists/ListSection";
 import BoxSection from "./components/BoxSection/BoxSection";
-import Footer from "./components/Footer/Footer";
+import Footer from "./components/footer/Footer";
 import "./App.css";
 
 const App = () => (
